@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            left: 0;
+            right: 0;
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            padding: 0.5rem 2rem;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin-right: 1rem;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .menu ul li {
+            margin-left: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .searchbar input {
+            border-radius: 20px;
+            background-color: rgb(54, 47, 48);
+        }
+
+        .searchbar input:active {
+            width: 15rem;
+        }
+
+        .avatar {
+            border: 1px solid;
+            border-radius: 50px;
+            background-color: blue;
+            width: 2rem;
+            height: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left">
+            <div class="logo">
+                logo
+            </div>
+
+            <div class="searchbar">
+                <input type="text">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li> <a href="#">Pulls</a></li>
+                    <li> <a href="#">Issues</a></li>
+                    <li> <a href="#">Codespaces</a></li>
+                    <li> <a href="#">Markplace</a></li>
+                    <li> <a href="#">Explore</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="avatar">
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
