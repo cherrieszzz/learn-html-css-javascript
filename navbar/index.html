@@ -57,10 +57,13 @@
         .searchbar input {
             border-radius: 20px;
             background-color: rgb(54, 47, 48);
+            width: 10rem;
+            transition: width 0.5s;
         }
 
-        .searchbar input:active {
+        .searchbar input:focus {
             width: 15rem;
+            border-color: black;
         }
 
         .avatar {
